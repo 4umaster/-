@@ -1,310 +1,304 @@
-.ekran1 {
-    max-height: 800px;
-    max-width: 1440px;
-    margin: auto;
-    background: rgb(207,0,99);
-    background: linear-gradient(67deg, rgba(207,0,99,1) 0%, rgba(69,14,75,1) 100%);
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-}
-
-ul {
-    display: flex;
-    list-style-type: none;
-    padding-right: 159px;
-}
-
-li > a {
-    text-decoration: none;
-    font-size: 16px;
-    color: #FFFFFF;
-}
-
-a:hover {
-    color: #FC0A7E;
-    border-bottom: solid 1px #FC0A7E;
-}
-
-li {
-    padding-top: 40px;
-}
-
-li + li {
-    padding-left: 30px;
-}
-
-.logo {
-    padding-left: 144px;
-    padding-top: 29px;
-}
-
-.content_ekran1 > img {
-    padding-top: 60px;
-    padding-right: 44px;
-}
-
-h1 {
-    color: #FFFFFF;
-    padding-left: 144px;
-    padding-top: 298px;
-    font-size: 80px;
-}
-
-div > p {
-    color: #FFFFFF;
-    padding-left: 144px;
-    padding-top: 10px;
-    font-size: 30px;
-}
-
-button {
-    padding: 20px 40px;
-    margin-left: 144px;
-    background: #FC0A7E;
-    border-radius: 3px;
-    font-size: 16px;
-    color: #FFFFFF;
-    border: #FC0A7E;
-    margin-top: 25px;
-}
-
-.content_ekran1 {
-    display: flex;
-    justify-content: space-between;
-}
-
-.strelka {
-    position: absolute;
-    right: 50%;
-    bottom: 0px;
-}
-
-.ekran2 {
-    height: 957px;
-    max-width: 1440px;
-    margin: auto;
-    background-color: #1B1B1B;
-    position: relative;
-}
-
-.ekran2 > p {
-    color: #A8A8A8;
-    font-size: 12px;
-    text-align: center;
-    padding-left: 0%;
-    padding-top: 100px;
-}
-
-.ekran2 > h2 {
-    color: #FFFFFF;
-    font-size: 38px;
-    padding-top: 30px;
-    width: 607px;
-    margin: auto;
-    text-align: center;
-}
-
-.kartinka_ekran2 {
-    margin-top: 55px;
-    margin-left: 120px;
-    position: absolute;
-    bottom: 0%;
-}
-
-.ekran3 {
-    max-width: 1440px;
-    background-color: white;
-    margin: auto;
-}
-
-.ekran3_block1 {
-    display: flex;
-}
-
-.Cay_sociis > h3 {
-    color: #A8A8A8;
-    font-size: 12px;
-    padding: 268px 0px 0px 274px;
-    text-transform: uppercase;
-}
-
-.Cay_sociis > h2 {
-    color: #000000;
-    font-size: 38px;
-    padding: 30px 0px 0px 274px;
-    width: 302px;
-}
-
-.Cay_sociis > p {
-    color: #6B6B6B;
-    font-size: 16px;
-    padding: 22px 0px 0px 274px;
-    width: 306px;
-}
-
-.ekran3_foto1 {
-    margin-left: 195px;
-    margin-top: 80px;
-}
-
-.ekran3_block2 {
-    display: flex;
-}
-
-.Cay_sociis2 > h3 {
-    color: #A8A8A8;
-    font-size: 12px;
-    padding: 288px 0px 0px 144px;
-    text-transform: uppercase;
-}
-
-.Cay_sociis2 > h2 {
-    color: #000000;
-    font-size: 38px;
-    padding: 25px 0px 0px 144px;
-    width: 302px;
-}
-
-.Cay_sociis2 > p {
-    color: #6B6B6B;
-    font-size: 16px;
-    padding: 27px 0px 0px 144px;
-    width: 306px;
-}
-
-.ekran3_foto2 {
-    margin-left: 302px;
-    margin-top: 160px;
-}
-
-.ekran3_block3 {
-    display: flex;
-}
-
-.Cay_sociis3 > h3 {
-    color: #A8A8A8;
-    font-size: 12px;
-    padding: 283px 0px 0px 274px;
-    text-transform: uppercase;
-}
-
-.Cay_sociis3 > h2 {
-    color: #000000;
-    font-size: 38px;
-    padding: 30px 0px 0px 274px;
-    width: 302px;
-}
-
-.Cay_sociis3 > p {
-    color: #6B6B6B;
-    font-size: 16px;
-    padding: 22px 0px 0px 274px;
-    width: 306px;
-}
-
-.ekran3_foto3 {
-    margin-left: 195px;
-    margin-top: 160px;
-}
-
-.ekran3_block4 {
-    display: flex;
-    margin: auto;
-}
-
-.ekran3_block4_block1 > img {
-    margin-top: 159px;
-    padding-left: 248px;
-}
-
-.ekran3_block4_block1 > h4 {
-    color: #000000;
-    font-size: 18px;
-    padding-top: 40px;
-    padding-left: 197px;
-}
-
-.ekran3_block4_block1 > p {
-    color: #6B6B6B;
-    font-size: 16px;
-    text-align: center;
-    padding-top: 17px;
-    padding-left: 102px;
-    width: 371px;
-}
-
-.ekran3_block4_block2 > img {
-    margin-top: 159px;
-    padding-left: 210px;
-}
-
-.ekran3_block4_block2 > h4 {
-    color: #000000;
-    font-size: 18px;
-    padding-top: 40px;
-    padding-left: 182px;
-}
-
-.ekran3_block4_block2 > p {
-    color: #6B6B6B;
-    font-size: 16px;
-    text-align: center;
-    padding-top: 17px;
-    padding-left: 61px;
-    width: 371px;
-}
-
-.ekran3_block4_block3 > img {
-    margin-top: 159px;
-    padding-left: 210px;
-}
-
-.ekran3_block4_block3 > h4 {
-    color: #000000;
-    font-size: 18px;
-    padding-top: 40px;
-    padding-left: 182px;
-}
-
-.ekran3_block4_block3 > p {
-    color: #6B6B6B;
-    font-size: 16px;
-    text-align: center;
-    padding-top: 17px;
-    padding-left: 61px;
-    width: 371px;
-}
-
-.ekran3_block5 {
-    display: flex;
-    margin: auto;
-}
-
-.ekran3_block4_12k {
-    width: 324px;
-    margin-top: 163px;
-    margin-left: 72px;
-    padding: 0%;
-}
-
-.ekran3_block4_12k_p1 {
+.ekran3_block4_84_p1 {
     color: #333333;
     font-size: 59px;
     text-align: center;
     padding: 0%;
 }
 
-.ekran3_block4_12k_p2 {
+.ekran3_block4_84_p2 {
     color: #000000;
     font-size: 18px;
     text-align: center;
     padding: 0%;
 }
 
-.ekran3_block4_84 {
+.ekran3_block4_307 {
     width: 324px;
     margin-top: 163px;
 }
+
+.ekran3_block4_307_p1 {
+    color: #333333;
+    font-size: 59px;
+    text-align: center;
+    padding: 0%;
+}
+
+.ekran3_block4_307_p2 {
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    padding: 0%;
+}
+
+.ekran3_block4_24 {
+    width: 324px;
+    margin-top: 163px;
+}
+
+.ekran3_block4_24_p1 {
+    color: #333333;
+    font-size: 59px;
+    text-align: center;
+    padding: 0%; /* переопределяет строку 64 этого файла*/
+}
+
+.ekran3_block4_24_p2 {
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    padding: 0%; /* переопределяет строку 64 этого файла*/
+}
+
+.block_phone {
+    width: 1440px;
+    height: 518px;
+    margin: auto;
+    position: relative;
+}
+
+.phone {
+    position: absolute;
+    bottom: 0%;
+}
+
+.ekran6 {
+    height: 475px;
+    width: 1440px;
+    margin: auto;
+    background: rgb(207,0,99);
+    background: linear-gradient(67deg, rgba(207,0,99,1) 0%, rgba(69,14,75,1) 100%);  
+}
+
+.ekran6_block{
+    width: 395px;
+    height: 234px;
+    padding-top: 124px;
+    margin: auto;
+}
+
+.ekran6_block > h4 {
+    padding-top: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 38px;
+}
+
+.buttonn {
+    display: flex;
+}
+
+.ekran6_button1 {
+    padding: 20px 40px;
+    background-color: #FC0A7E;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin: 40px 10px 0 0;
+}
+
+.ekran6_button2 {
+    padding: 20px 40px;
+    background-color: rgba(28,28,28,0);
+    border: solid 1px white;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin: 40px 0 0 0;
+}
+
+.ekran7 {
+    width: 1440px;
+    height: 463px;
+    margin: auto;
+    background-color: #1B1B1B;
+}
+
+.ekran7_1 {
+    color: #FFFFFF;
+    font-size: 38px;
+    padding-top: 129px;
+    text-align: center;
+}
+
+.ekran7_2 {
+    color: #6B6B6B;
+    font-size: 16px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.inpet_E_mail {
+    margin-top: 40px;
+    width: 311px;
+    height: 70px;
+}
+
+.inpet_E_mail {
+    margin: 40px 0px 0px 488px;
+    width: 311px;
+    height: 70px;
+    padding: 0;
+}
+
+.inpet_submit {
+    margin-top: 40px;
+    width: 154px;
+    height: 70px;
+    background-color: #FC0A7E;
+    color: #1C1C1C;
+    font-size: 16px;
+    border: none;
+    padding: 22px 0px;
+} 
+
+footer {
+    width: 1440px;
+    height: 242px;
+    background-color: #1B1B1B;
+    margin: auto;
+}
+
+footer > img {
+    margin-top: 20px;
+    display: block;
+    margin: auto;
+}
+
+footer > ul {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    color: #6B6B6B;
+    font-size: 12px;
+    padding-top: 29px;
+}
+
+li + li {
+    margin-left: 30px;
+}
+
+input:focus {
+    background-color: #d8d3d5;
+}
+
+<div class="ekran1">
+            <header>
+                <img src="IMAGE (1).png" alt="logo" class="logo">
+                <nav>
+                    <ul>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Features</a></li>
+                        <li><a href="">How to Use</a></li>
+                        <li><a href="">Download</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="content_ekran1">
+                <div>
+                    <h1>Momentum</h1>
+                    <p>Launch your product — and savor the momentum.</p>
+                    <button>Get the App</button>
+                    <div>
+                    <img src="Combined-Shape.png" alt="strelka" class="strelka">
+                </div>
+                </div>
+                    <img src="IMAGE (2).png" alt="karinka_ekran1">
+                </div>
+        </div>
+        <div class="ekran2">
+            <p>Aenean Consectetur Porta</p>
+            <h2>Nullam quis risus eget urna mollis ornare vel eu leo.</h2>
+            <img src="IMAGE (3).png" alt="kartinka_ekran2" class="kartinka_ekran2">
+        </div>
+        <div class="ekran3">
+            <div class="ekran3_block1">
+                <div class="Cay_sociis">
+                    <h3>Aenean Consectetur</h3>
+                    <h2>Cay sociis nato que penatibus et</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                </div>
+                <img src="IMAGE (4).png" alt="ekran3_foto1" class="ekran3_foto1">
+            </div>
+            <div class="ekran3_block2">
+                <img src="IMAGE (5).png" alt="ekran3_foto1" class="ekran3_foto2">
+                <div class="Cay_sociis2">
+                    <h3>ConsectUltricies</h3>
+                    <h2>Amet Ipsum</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                </div>
+            </div>
+            <div class="ekran3_block3">
+                <div class="Cay_sociis3">
+                    <h3>Aenean Consectetur</h3>
+                    <h2>Cay sociis nato que penatibus et</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                </div>
+                <img src="IMAGE (6).png" alt="ekran3_foto1" class="ekran3_foto3">
+            </div>
+            <div class="ekran3_block4">
+                <div class="ekran3_block4_block1">
+                    <img src="Page-1.png" alt="Burger">
+                    <h4>Activity Notifications</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                </div>
+                <div class="ekran3_block4_block2">
+                    <img src="Page-1 (1).png" alt="Fork">
+                    <h4>Custom Timing</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                </div>
+                <div class="ekran3_block4_block3">
+                    <img src="Combined-Shape (1).png" alt="Diagram">
+                    <h4>Mobile Optimized</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                </div>
+            </div>
+            <div class="ekran3_block5">
+                <div class="ekran3_block4_12k">
+                    <p class="ekran3_block4_12k_p1">+12k</p>
+                    <p class="ekran3_block4_12k_p2">Nibh Elit Tristique</p>
+                </div>
+                <div class="ekran3_block4_84">
+                    <p class="ekran3_block4_84_p1">84</p>
+                    <p class="ekran3_block4_84_p2">Aenean Condimentum</p>
+                </div>
+                <div class="ekran3_block4_307">
+                    <p class="ekran3_block4_307_p1">3,07</p>
+                    <p class="ekran3_block4_307_p2">Quam Inceptos</p>
+                </div>
+                <div class="ekran3_block4_24">
+                    <p class="ekran3_block4_24_p1">24h</p>
+                    <p class="ekran3_block4_24_p2">Ullamcorper</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="block_phone"><img src="tts.png" alt="" class="phone"></div>
+        <div class="ekran6">
+            <div class="ekran6_block">
+                <h4>Ready to get started?</h4>
+                <div class="buttonn">
+                    <button class="ekran6_button1">Download Now</button>
+                    <button class="ekran6_button2">Get in Touch</button>
+                </div>
+            </div>
+        </div>
+        <div class="ekran7">
+            <form action="">
+                <p class="ekran7_1">Get updates from Richard</p>
+                <p class="ekran7_2">New course alerts, discounts and free lessons</p>
+                <input type="E-mail" placeholder="Enter your email" class="inpet_E_mail">
+                <input type="submit" value="Subscribe" class="inpet_submit">
+            </form>
+        </div>
+        <footer>
+            <img src="IMAGE (8).png" alt="kartinka_footer">
+            <ul>
+                <li>Email</li>
+                <li>Instagram</li>
+                <li>Facebook</li>
+                <li>Twitter</li>
+                <li>Image License Info</li>
+                <li>Powered by Webflow</li>
+            </ul>
+        </footer>
